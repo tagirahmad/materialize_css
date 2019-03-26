@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css"> -->
+    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Materialize CSS</title>
+</head>
+<body>
+	
+<!--   <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" data-activates='mobile-demo' class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+      <ul class="side-nav" id='nav-mobile'>
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav> -->
+
+	<div class="navbar-fixed">
+		<nav>
+		  	<div class="container">
+			    <div class="nav-wrapper">
+			      <a href="#" class="brand-logo">Logo</a>
+			      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			      <ul id="nav-mobile" class="right hide-on-med-and-down">
+			        <li><a href="#">Home</a></li>
+			        <li><a href="#">About</a></li>
+			        <li><a href="#modal1" class="modal-trigger">Support</a></li>
+			      </ul>
+			      <ul id="mobile-demo" class="sidenav">
+			        <li><a href="#">Home</a></li>
+			        <li><a href="#">About</a></li>
+			        <li><a href="#modal1" class="modal-trigger">Support</a></li>
+			      </ul>
+			    </div>
+			</div>
+		</nav>
+    </div>
+
+
+    <!-- Modal Trigger -->
+  <!-- <a class="waves-effect waves-light btn modal-trigger" href="">Modal</a> -->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <form class="col s12">
+      	<div class="row">
+      		<div class="input-field col s6">
+      			<i class="material-icons prefix">account_circle</i>
+      			<input type="text" placeholder="Name" id='first_name'>
+      			<label for="first_name">First name</label>
+      		</div>
+      		<div class="input-field col s6">
+      			<i class="material-icons prefix">account_circle</i>
+      			<input type="text" placeholder="Name" id='last_name'>
+      			<label for="last_name">Last name</label>
+      		</div>
+      	</div>
+      	<div class="row">
+      		<div class="input-field col s12">
+      			<i class="material-icons prefix">lock</i>
+      			<input type="password" id='password' class="password">
+      			<label for="password">Password</label>
+      		</div>
+      	</div>
+      	<div class="row">
+      		<div class="input-field col s12">
+      			<i class="material-icons prefix">email</i>
+      			<input type="email" id='email' class="validate">
+      			<label for="email">Email</label>
+      		</div>
+      	</div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  
+	<div class="container">
+		<div class="show">
+			<div class="carousel carousel-slider">
+			    <a class="carousel-item" href="#one!"><img src="img1.jpg"></a>
+			    <a class="carousel-item" href="#two!"><img src="img1.jpg"></a>
+			    <a class="carousel-item" href="#three!"><img src="img1.jpg"></a>
+			    <a class="carousel-item" href="#four!"><img src="img1.jpg"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col xl3 l4 m6 s12 center-align">
+				<img src="img1.jpg" alt="" height="80" width="100">
+				<h4>Lorem ipsum</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore, magni. Necessitatibus doloribus commodi, voluptatem iure dolorem porro excepturi similique aliquam temporibus quam voluptas soluta veniam quis fugit dolores quaerat fuga adipisci unde suscipit quisquam! Nesciunt, hic ducimus est accusantium repellat, quam, quasi recusandae amet quod nemo nihil, animi facilis.</p>
+			</div>
+			<div class="col xl3 l4 m6 s12 center-align l4 m6 s12">
+				<img src="img1.jpg" alt="" height="80" width="100">
+				<h4>Lorem ipsum</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore, magni. Necessitatibus doloribus commodi, voluptatem iure dolorem porro excepturi similique aliquam temporibus quam voluptas soluta veniam quis fugit dolores quaerat fuga adipisci unde suscipit quisquam! Nesciunt, hic ducimus est accusantium repellat, quam, quasi recusandae amet quod nemo nihil, animi facilis.</p>
+			</div>
+			<div class="col xl3 l4 m6 s12 center-align">
+				<img src="img1.jpg" alt="" height="80" width="100">
+				<h4>Lorem ipsum</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore, magni. Necessitatibus doloribus commodi, voluptatem iure dolorem porro excepturi similique aliquam temporibus quam voluptas soluta veniam quis fugit dolores quaerat fuga adipisci unde suscipit quisquam! Nesciunt, hic ducimus est accusantium repellat, quam, quasi recusandae amet quod nemo nihil, animi facilis.</p>
+			</div>
+			<div class="col xl3 l4 m6 s12 center-align">
+				<img src="img1.jpg" alt="" height="80" width="100">
+				<h4>Lorem ipsum</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, labore, magni. Necessitatibus doloribus commodi, voluptatem iure dolorem porro excepturi similique aliquam temporibus quam voluptas soluta veniam quis fugit dolores quaerat fuga adipisci unde suscipit quisquam! Nesciunt, hic ducimus est accusantium repellat, quam, quasi recusandae amet quod nemo nihil, animi facilis.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="parallax-container">
+    	<div class="parallax"><img src="img1.jpg"></div>
+    </div>
+    <div class="section white">
+      	<div class="row container">
+      		<h1 class="header">Parallax</h1>
+      		<p class="grey-text text-darken-3 lighten-3">
+      			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos est nemo ad aliquid repellat, consequatur distinctio in deserunt consequuntur enim quisquam pariatur iure fugit vero voluptates. Aperiam, illum! Reprehenderit, doloremque eos molestias quia dolorem facere autem minima saepe possimus eum.
+      		</p>
+      	</div>
+    </div>
+    <div class="parallax-container">
+    	<div class="parallax"><img src="img1.jpg"></div>
+    </div>
+    
+
+
+
+
+
+
+
+
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+	<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$('.sidenav').sidenav();
+  		});
+  		$('.carousel.carousel-slider').carousel({
+    		fullWidth: true,
+    		indicators: true,
+    		duration: 400,
+    		// noWrap: true
+  		});
+  		$(document).ready(function(){
+    		$('.parallax').parallax();
+  		});
+
+  		$('.modal').modal({
+  			dismissible: false,
+  			opacity: .5,
+  			inDuration: 400,
+  			outDuration: 400,
+  			startingTop: '4%'
+  		});
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+nav {
+	background-color: lightblue;
+}
+
+.navbar-fixed{ z-index: 1000; }﻿
+
+body {
+	height: 1000px
+}
+
+.show {
+	margin-bottom: 20px;
+}
