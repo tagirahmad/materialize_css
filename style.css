@@ -5,8 +5,18 @@ nav {
 .navbar-fixed{ z-index: 1000; }﻿
 
 body {
-	height: 1000px
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	min-height: 100vh
 }
+
+/*main {
+	flex: 1 0 auto
+}*/
 
 .show {
 	margin-bottom: 20px;
@@ -16,4 +26,8 @@ body {
     .parallax-container {
         height: 150px;
     }
+}
+
+.page-footer{
+	background-color: lightblue;
 }
